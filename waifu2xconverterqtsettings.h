@@ -70,7 +70,7 @@ public:
     }
     inline QString imageProcessingMode() const
     {
-        return value("ImageProcessingMode", "noise_scale").toString();
+        return value("ImageProcessingMode", "noise-scale").toString();
     }
 
     inline void setUseCustomFileName(bool on)

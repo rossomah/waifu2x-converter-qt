@@ -17,9 +17,9 @@ QString Waifu2xConverterQtSettings::defaultOptionString(const Option opt)
 {
     switch (opt) {
     case Jobs:       return "-j";
-    case ModelDir:   return "--model_dir";
-    case ScaleRatio: return "--scale_ratio";
-    case NoiseLevel: return "--noise_level";
+    case ModelDir:   return "--model-dir";
+    case ScaleRatio: return "--scale-ratio";
+    case NoiseLevel: return "--noise-level";
     case Mode:       return "-m";
     case OutputFile: return "-o";
     case InputFile:  return "-i";

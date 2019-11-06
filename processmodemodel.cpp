@@ -9,7 +9,7 @@ ProcessModeModel::ProcessModeModel()
 
     noise->setData("noise", Qt::UserRole);
     scale->setData("scale", Qt::UserRole);
-    noiseScale->setData("noise_scale", Qt::UserRole);
+    noiseScale->setData("noise-scale", Qt::UserRole);
 
     this->setItem(0, scale);
     this->setItem(1, noise);
